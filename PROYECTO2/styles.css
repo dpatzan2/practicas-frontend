@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container__nav {
+    background-attachment: scroll;
+    background-image: url("https://img.remediosdigitales.com/12aab9/brid/450_1000.jpg");
+    background-position: top left, center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    width: 100%;
+    height: 600px;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 15px;
+}
+
+.navbar__columns {
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.right ul li {
+    padding-right: 1em;
+}
+.navbar__columns li {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.containter__background {
+    color: #fff;
+    padding: 12em 0 17em 0;
+    text-align: center;
+}
+
+.containter__background h2 {
+    font-size: 80px;
+}
+
+.containter__background p {
+    font-size: 35px;
+    color: grey;
+}
+
+.last{
+    padding-right: 8em !important;
+}
+
+.title__general{
+    padding-left: 5em;
+}
+
+
+.container__genenral__info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.container__info__cards{
+    width: 87%;
+    display: flex;
+}
+
+.container__info{
+    width: 33.33%;
+    margin: 2em;
+    text-align: center;
+}
+
+.container__info h2{
+    padding-top: 0.9em;
+}
+
+.container__info p{
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.container__icon{
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 100%;
+    padding: 2.5em 0.5em 2.5em 0.5em;
+    border-style: solid;
+}
+
+
+.container__products{
+    width: 100%;
+    background: blue;
+    text-align: center;
+}
+
+
+.container__general__products{
+    width: 85%;
+    margin: 0 auto;
+    background: red ;
+    display: flex;
+}
+
+.container__prodcuts__text{
+    width: 85%;
+    margin: 0 auto;
+    background: aqua;
+    display: flex;
+}
+
+
+.container_general_cards {
+    width: 100%;
+}
+
+.container__cards {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 1.5em;
+}
+
+
+.container__cards img{
+    width: 100%;
+}
