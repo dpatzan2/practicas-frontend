@@ -1,6 +1,13 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Open+Sans:wght@300;400&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container__nav {
@@ -8,7 +15,7 @@
     background-image: url("https://img.remediosdigitales.com/12aab9/brid/450_1000.jpg");
     background-position: top left, center center;
     background-repeat: no-repeat;
-    background-size: 100% 100%; 
+    background-size: 100% 100%;
     width: 100%;
     height: 600px;
 }
@@ -28,6 +35,15 @@
     cursor: pointer;
 }
 
+.navbar__columns h1{
+    padding-left: 3em;
+    font-size: 2.2em;
+}
+
+.navbar__columns h1 sup{
+    font-size: 0.4em;
+}
+
 .right {
     display: flex;
     flex-direction: row;
@@ -38,6 +54,7 @@
 .right ul li {
     padding-right: 1em;
 }
+
 .navbar__columns li {
     display: inline-block;
     padding-left: 5px;
@@ -55,19 +72,27 @@
 
 .containter__background p {
     font-size: 35px;
-    color: grey;
+    color: rgb(144, 150, 150);;
 }
 
-.last{
+.last {
     padding-right: 8em !important;
 }
 
-.title__general{
+.title__general {
     padding-left: 5em;
+    color: #434243;
 }
 
+.title__general span {
+    color: rgb(144, 150, 150);
+}
 
-.container__genenral__info{
+.second {
+    padding-top: 4em;
+}
+
+.container__genenral__info {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -75,68 +100,113 @@
     margin-top: 2em;
 }
 
-.container__info__cards{
+.container__info__cards {
     width: 87%;
     display: flex;
 }
 
-.container__info{
+.container__info {
     width: 33.33%;
     margin: 2em;
     text-align: center;
 }
 
-.container__info h2{
+.container__info h2 {
     padding-top: 0.9em;
+    color: rgb(144, 150, 150);
 }
 
-.container__info p{
+.container__info p {
     padding: 0.5em 1em 0.5em 1em;
+    color: rgb(144, 150, 150);
 }
 
-.container__icon{
+.container__icon {
     width: 25%;
     margin: 0 auto;
     border-radius: 100%;
     padding: 2.5em 0.5em 2.5em 0.5em;
     border-style: solid;
+    border-color: #434243;
 }
 
-
-.container__products{
+.container__general__products {
     width: 100%;
-    background: blue;
-    text-align: center;
-}
-
-
-.container__general__products{
-    width: 85%;
-    margin: 0 auto;
-    background: red ;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F0F0F0;
 }
 
-.container__prodcuts__text{
-    width: 85%;
-    margin: 0 auto;
-    background: aqua;
-    display: flex;
+.container__general__products__info {
+    width: 82%;
+    padding-bottom: 5.5em;
 }
 
-
-.container_general_cards {
+.container__info__products {
     width: 100%;
+    overflow: hidden;
+    padding-top: 9em;
 }
 
-.container__cards {
+.container__info__products h1 {
+    float: left;
+    color: #434243;
+    padding-left: 0.55em;
+}
+
+.container__info__products h1 span {
+    color: rgb(144, 150, 150);
+}
+
+.container__info__products button {
+    float: right;
+    padding: 0.8em;
+    background: transparent;
+    border-color: #434243;
+    color: #434243;
+    border-style: solid;
+    font-size: 1.07em;
+    margin-right: 1.2em;
+}
+
+.container__prodcuts {
     box-sizing: border-box;
     float: left;
     width: 33.33%;
-    padding: 1.5em;
+    padding: 1em;
 }
 
+.first {
+    padding-top: 3.5em !important;
+}
 
-.container__cards img{
+.container__prodcuts img {
     width: 100%;
+}
+
+.container__final__info__general {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.7em;
+}
+
+.container__info__final {
+    width: 83%;
+    display: flex;
+}
+
+.containers__info {
+    text-align: left;
+    width: 33.33%;
+    font-size: 1.7em;
+    color: rgb(144, 150, 150);
+    ;
+}
+
+.containers__info h3 {
+    padding-top: 0.45em;
+
 }
